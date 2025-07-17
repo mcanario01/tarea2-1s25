@@ -1,0 +1,278 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[right=2cm,left=2cm,top=2cm,bottom=2cm,headsep=10.0pt,footskip=1cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{graphicx}% Para usar figuras JPG, PNG, etc...
+\usepackage{multirow} % para unir filas
+\usepackage{multicol} % para unir columnas
+\usepackage{dcolumn}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.99,0.99,0.99}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{mblue}{rgb}{0.0,0.0,0.6}
+\definecolor{mgreen}{rgb}{0.0,0.5,0.0}
+
+
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour},   
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\footnotesize\ttfamily,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+
+\lhead[]{}
+\chead[]{}
+\rhead[]{}
+\renewcommand{\headrulewidth}{0pt}
+
+\lfoot[]{}
+\cfoot[]{}
+\rfoot[]{}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancypagestyle{plain}{
+  \fancyhead[L]{}
+  \fancyhead[C]{}
+  \fancyhead[R]{}
+  \fancyfoot[L]{}
+  \fancyfoot[C]{}
+  \fancyfoot[R]{}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+\pagestyle{fancy}
+
+\headheight 24.3pt
+
+\newcommand{\grad}{$^{\circ}~$}
+\newcommand{\tab}{\hspace{1cm}}
+
+\lstset{
+  language=Matlab,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{mblue},
+  commentstyle=\color{gray},
+  stringstyle=\color{mgreen},
+  frame=single,
+  breaklines=true,
+  captionpos=b,
+  showstringspaces=false
+}
+
+\begin{document}
+
+\lstset{language=Python}
+
+\lhead[]{Universidad de La Frontera. INELE}
+\chead[]{}
+\rhead[]{\includegraphics[width=0.8cm]{./img/logo.png}}
+\renewcommand{\headrulewidth}{0.5pt}
+
+\lfoot[]{Herramientas de análisis de señales:}
+\cfoot[]{}
+\rfoot[]{\thepage}
+\renewcommand{\footrulewidth}{0.5pt}
+
+%--------------------------------------------------------------------------
+\title{\includegraphics[width=4.7cm]{./img/logo.png} \\
+\textbf{Informe Tarea N\textsuperscript{2}}}
+
+\author{
+\rule{10cm}{0.1mm} \\
+Departamento de Ingeniería Eléctrica \\
+\small Universidad de La Frontera \\
+\rule{10cm}{0.1mm} 
+}
+
+\maketitle
+\abstract{Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\\
+}
+\vfill
+    \begin{flushright}
+    \textbf{\uppercase\expandafter{Martín Tomás Canario Dauros}}\\
+    \end{flushright}
+\vskip 0.1in
+    \begin{flushleft}
+    \textbf{Profesor:} Dr. Fernando Huenupan\\
+    \end{flushleft}
+\lstset{language=C, breaklines=true, basicstyle=\scriptsize}
+\newpage
+\normalsize
+
+\section{Ajuste de función de transferencia}
+Se pide ajustar la función de transferencia \( F_2(s) \), definida como:
+
+\begin{equation}
+F_2(s) = \frac{15s^2 + 330s + 1575}{s^4 + 52s^3 + 1061s^2 + 10108s + 37828}
+\end{equation}
+para cumplir con los siguientes requisitos:
+\begin{itemize}
+    \item Valor en estado estacionario: \( 3.5 \pm 1 \)
+    \item Sobreimpulso: \( 20\% - 30\% \)
+    \item Tiempo de asentamiento: \( < 80 \) segundos
+    \item Tiempo de subida: \( < 15 \) segundos
+\end{itemize}
+
+\subsection{Cálculo del valor en estado estacionario}
+
+Se evalúa el límite directamente en \( s = 0 \):
+
+\begin{equation}
+\text{Numerador: } \quad 15(0)^2 + 330(0) + 1575 = 1575
+\end{equation}
+
+\begin{equation}
+\text{Denominador: } \quad 0^4 + 52(0)^3 + 1061(0)^2 + 10108(0) + 37828 = 37828
+\end{equation}
+
+Finalmente, el valor en estado estacionario es:
+
+\begin{equation}
+y_{ss} = \lim_{s \to 0} F_2(s) = \frac{1575}{37828} \approx 0.04163
+\end{equation}
+
+Queremos aumentar este valor en estado estacionario a 3,5.
+
+\begin{equation}
+K = \frac{3.5}{0.04163} \approx 84.06
+\end{equation}
+
+La función ajustada queda:
+
+\begin{equation}
+\tilde{F}_2(s) = K \cdot F_2(s) = \frac{1260.93 s^2 + 27740.53 s + 132398.0}{s^4 + 52s^3 + 1061s^2 + 10108s + 37828}
+\end{equation}
+
+Finalmente, se verifica nuevamente el valor en estado estacionario:
+
+\begin{equation}
+\lim_{s \to 0} \tilde{F}_2(s) = \frac{132398.0}{37828} = \boxed{3.5}
+\end{equation}
+
+\subsection{Cálculo del sobreimpulso}
+
+Inicialmente, el sobreimpulso de la respuesta al escalón era inferior al 20\%. Para incrementarlo, se modificó el numerador agregando un cero más cercano al origen, específicamente en $s = -0.08$:
+
+\begin{lstlisting}[caption={Modificación del numerador para ajustar sobreimpulso}]
+num_modificado = conv([0.08, 1], [1260.93, 27740.53, 132398.0]);
+den = [1, 52, 1061, 10108, 37828];
+H2 = tf(num_modificado, den);
+
+[y, t] = step(H2);
+y_ss = dcgain(H2);
+y_max = max(y);
+OS = (y_max - y_ss) / y_ss * 100;
+
+fprintf('Sobreimpulso: %.2f%%\n', OS);
+\end{lstlisting}
+
+Resultado:
+
+\begin{equation}
+\text{Sobreimpulso} = 25.97\% \quad \Rightarrow \quad \text{Cumple con el criterio requerido.}
+\end{equation}
+
+\vspace{1em}
+
+\subsection*{c) Cálculo del tiempo de asentamiento}
+
+El tiempo de asentamiento corresponde al tiempo en que la respuesta permanece dentro del $\pm2\%$ del valor final. Se calcula con el siguiente código:
+
+\begin{lstlisting}[caption={Cálculo del tiempo de asentamiento}]
+margen = 0.02 * y_ss;
+lim_inf = y_ss - margen;
+lim_sup = y_ss + margen;
+
+fuera = find((y < lim_inf) | (y > lim_sup));
+ts = t(fuera(end));  % ultimo punto fuera del 2%
+fprintf('Tiempo de asentamiento: %.2f s\n', ts);
+\end{lstlisting}
+
+Resultado:
+
+\begin{equation}
+t_s = 0.37 \text{ segundos} \quad \Rightarrow \quad \text{Cumple con } t_s < 80 \text{ s.}
+\end{equation}
+
+\vspace{1em}
+
+\subsection*{d) Cálculo del tiempo de subida}
+
+El tiempo de subida es el tiempo que tarda la respuesta en subir desde el 10\% al 90\% del valor final. Se calcula como sigue:
+
+\begin{lstlisting}[caption={Cálculo del tiempo de subida}]
+y10 = 0.10 * y_ss;
+y90 = 0.90 * y_ss;
+
+i10 = find(y >= y10, 1, 'first');
+i90 = find(y >= y90, 1, 'first');
+t_rise = t(i90) - t(i10);
+
+fprintf('Tiempo de subida: %.4f s\n', t_rise);
+\end{lstlisting}
+
+Resultado:
+
+\begin{equation}
+t_r = 0.0461 \text{ segundos} \quad \Rightarrow \quad \text{Cumple con } t_r < 15 \text{ s.}
+\end{equation}
+
+\vspace{1em}
+
+\subsection*{Resumen de desempeño}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Métrica} & \textbf{Resultado} & \textbf{Requisito} & \textbf{¿Cumple?} \\
+\hline
+Valor en estado estacionario & 3.5       & $3.5 \pm 1$      & Sí \\
+Sobreimpulso                 & 25.97\%   & $20\% - 30\%$    & Sí \\
+Tiempo de asentamiento       & 0.37 s    & $< 80$ s         & Sí \\
+Tiempo de subida             & 0.0461 s  & $< 15$ s         & Sí \\
+\hline
+\end{tabular}
+\caption{Resumen del desempeño del sistema ajustado}
+\end{table}
+
+\newpage
+
+Finalmente, la funcion de transferencia ajustada es:
+
+\[
+H(s) = \frac{100.9\,s^3 + 3480\,s^2 + 38330\,s + 132398}{s^4 + 52\,s^3 + 1061\,s^2 + 10108\,s + 37828}
+\]
+
+\section{Pruebas de funcion.}
+
+
+
+\end{document}
