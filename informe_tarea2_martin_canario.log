@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.10)  17 JUL 2025 19:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.10)  18 JUL 2025 00:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -522,17 +522,12 @@ Package caption Info: End \AtBeginDocument code.
  (d:/Programs/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
-<./img/logo.png, id=20, 47.98727pt x 41.9166pt>
+<./img/logo.png, id=128, 47.98727pt x 41.9166pt>
 File: ./img/logo.png Graphic file (type png)
 <use ./img/logo.png>
 Package pdftex.def Info: ./img/logo.png  used on input line 113.
 (pdftex.def)             Requested size: 133.72786pt x 116.81683pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
-
- []
-
-(d:/Programs/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+ (d:/Programs/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 ) (d:/Programs/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
@@ -540,27 +535,105 @@ File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 
 [1
 
-{d:/Programs/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/logo.png>]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 183.
+{d:/Programs/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/logo.png>] (./informe_tarea2_martin_canario.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@toc=\write4
+\openout4 = `informe_tarea2_martin_canario.toc'.
+
 
 
 File: ./img/logo.png Graphic file (type png)
 <use ./img/logo.png>
-Package pdftex.def Info: ./img/logo.png  used on input line 200.
+Package pdftex.def Info: ./img/logo.png  used on input line 128.
 (pdftex.def)             Requested size: 22.76228pt x 19.88243pt.
 [2]
 
 File: ./img/logo.png Graphic file (type png)
 <use ./img/logo.png>
-Package pdftex.def Info: ./img/logo.png  used on input line 266.
+Package pdftex.def Info: ./img/logo.png  used on input line 143.
 (pdftex.def)             Requested size: 22.76228pt x 19.88243pt.
 [3]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 199.
+
 
 File: ./img/logo.png Graphic file (type png)
 <use ./img/logo.png>
-Package pdftex.def Info: ./img/logo.png  used on input line 278.
+Package pdftex.def Info: ./img/logo.png  used on input line 216.
 (pdftex.def)             Requested size: 22.76228pt x 19.88243pt.
-[4] (./informe_tarea2_martin_canario.aux
+[4]
+
+File: ./img/logo.png Graphic file (type png)
+<use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png  used on input line 282.
+(pdftex.def)             Requested size: 22.76228pt x 19.88243pt.
+[5]
+
+File: ./img/logo.png Graphic file (type png)
+<use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png  used on input line 351.
+(pdftex.def)             Requested size: 22.76228pt x 19.88243pt.
+[6]
+<./img/2-a-1.png, id=253, 365.2044pt x 298.2342pt>
+File: ./img/2-a-1.png Graphic file (type png)
+<use ./img/2-a-1.png>
+Package pdftex.def Info: ./img/2-a-1.png  used on input line 371.
+(pdftex.def)             Requested size: 400.38872pt x 326.98012pt.
+
+
+File: ./img/logo.png Graphic file (type png)
+<use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png  used on input line 380.
+(pdftex.def)             Requested size: 22.76228pt x 19.88243pt.
+[7 <./img/2-a-1.png (PNG copy)>]
+
+File: ./img/logo.png Graphic file (type png)
+<use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png  used on input line 448.
+(pdftex.def)             Requested size: 22.76228pt x 19.88243pt.
+[8]
+<./img/2-a-2.png, id=286, 365.6862pt x 298.2342pt>
+File: ./img/2-a-2.png Graphic file (type png)
+<use ./img/2-a-2.png>
+Package pdftex.def Info: ./img/2-a-2.png  used on input line 464.
+(pdftex.def)             Requested size: 400.38872pt x 326.56146pt.
+
+
+File: ./img/logo.png Graphic file (type png)
+<use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png  used on input line 469.
+(pdftex.def)             Requested size: 22.76228pt x 19.88243pt.
+[9 <./img/2-a-2.png (PNG copy)>]
+
+File: ./img/logo.png Graphic file (type png)
+<use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png  used on input line 538.
+(pdftex.def)             Requested size: 22.76228pt x 19.88243pt.
+[10]
+Overfull \hbox (40.4173pt too wide) detected at line 607
+[][][]\OML/cmm/m/it/10.95 Y\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 s\OT1/cmr/m/n/10.95 ) = [][][]\OML/cmm/m/it/10.95 e[] \OMS/cmsy/m/n/10.95 ^^@ []\OML/cmm/m/it/10.95 e[] \OMS/cmsy/m/n/10.95 ^^@ []\OML/cmm/m/it/10.95 e[] \OT1/cmr/m/n/10.95 + []\OML/cmm/m/it/10.95 e[] \OMS/cmsy/m/n/10.95 ^^@ []\OML/cmm/m/it/10.95 e[][] \OT1/cmr/m/n/10.95 + [][]\OMS/cmsy/m/n/10.95 ^^@[]\OML/cmm/m/it/10.95 e[] \OT1/cmr/m/n/10.95 + []\OML/cmm/m/it/10.95 e[] \OMS/cmsy/m/n/10.95 ^^@ []\OML/cmm/m/it/10.95 e[] \OT1/cmr/m/n/10.95 + []\OML/cmm/m/it/10.95 e[] \OMS/cmsy/m/n/10.95 ^^@ []\OML/cmm/m/it/10.95 e[][]
+ []
+
+
+
+File: ./img/logo.png Graphic file (type png)
+<use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png  used on input line 625.
+(pdftex.def)             Requested size: 22.76228pt x 19.88243pt.
+[11]
+
+File: ./img/logo.png Graphic file (type png)
+<use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png  used on input line 632.
+(pdftex.def)             Requested size: 22.76228pt x 19.88243pt.
+[12]
+
+File: ./img/logo.png Graphic file (type png)
+<use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png  used on input line 652.
+(pdftex.def)             Requested size: 22.76228pt x 19.88243pt.
+[13] (./informe_tarea2_martin_canario.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -569,21 +642,21 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
 Package rerunfilecheck Info: File `informe_tarea2_martin_canario.out' has not changed.
-(rerunfilecheck)             Checksum: 91E493F4A123B3892285AC85C050875D;833.
+(rerunfilecheck)             Checksum: 3F1E2102FC8149D99DB4E50CADAE0658;7224.
  ) 
 Here is how much of TeX's memory you used:
- 15599 strings out of 475029
- 243810 string characters out of 5763234
+ 16347 strings out of 475029
+ 253152 string characters out of 5763234
  979288 words of memory out of 5000000
- 38051 multiletter control sequences out of 15000+600000
- 573570 words of font info for 70 fonts, out of 8000000 for 9000
+ 38689 multiletter control sequences out of 15000+600000
+ 574259 words of font info for 71 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,16n,79p,567b,1222s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on informe_tarea2_martin_canario.pdf (4 pages, 180031 bytes).
+ 75i,19n,79p,805b,2020s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> <c:/Users/Madac/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Programs/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on informe_tarea2_martin_canario.pdf (13 pages, 394213 bytes).
 PDF statistics:
- 435 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 800 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
+ 157 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 
